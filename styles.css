@@ -32,6 +32,7 @@
     padding: 75px;
     align-items: center;
     gap: 75px;
+    flex: auto;
     
 }
 

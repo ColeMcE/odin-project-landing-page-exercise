@@ -1,0 +1,32 @@
+.header {
+    display:flex;
+    align-items: center;
+    background-color: skyblue;
+    padding: 12px;
+}
+
+.links {
+    display: flex;
+    gap: 36px;
+    
+    
+}
+
+.links li {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-icon {
+    display: flex;
+    margin-right: auto;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+}

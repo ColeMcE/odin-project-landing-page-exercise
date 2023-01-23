@@ -5,6 +5,7 @@
     background-color: skyblue;
     padding: 12px;
     justify-content: space-around;
+    
 }
 
 .header-icon {
@@ -18,13 +19,17 @@
     gap: 36px;
     justify-content: center;
     align-items: center;
-    
-    
+       
+}
+
+.links h1 {
+    font-family: MedievalSharp;
 }
 
 .links li {
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: MedievalSharp;
+    margin-right: 25px;
 }
 
 .intro {
@@ -35,6 +40,7 @@
     align-items: center;
     gap: 75px;
     flex: auto;
+    
     
 }
 
@@ -70,20 +76,21 @@
     
 }
 
-.info {
-    background-color: skyblue;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .info h1 {
     display: flex;
     align-items: center;
     justify-content: center;
     color: black;
     padding: 12px;
-    font-weight: bold;
-
+    font-size: 32p;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 700;
+    line-height: 35.2px;
+    font-family: MedievalSharp;
 }
+
+/* h1 { font-family: MedievalSharp; font-size: 32px; font-style: italic; font-variant: small-caps; font-weight: 700; line-height: 35.2px; } */
 
 .info-blocks {
     display: flex;
@@ -102,8 +109,17 @@
 
 .blocks p {
     text-align: center;
+    font-size: 18pt;
+    padding-top: 48px;
     color: black;
+    font-family: MedievalSharp;
+    padding-bottom: 100px;
 
+}
+
+.blocks img {
+    height: 450px;
+    
 }
 
 .quote {
@@ -112,16 +128,19 @@
     flex: initial;
     justify-content: center;
     align-items: center;
-    height: 400px;
-    padding: 100px;
+    height: 200px;
+    padding: 50px;
     font-size: 20pt;
     font-weight: bold;
+    font-family: MedievalSharp;
+    background-color: skyblue;
     
 }
 
 .quote-author {
     margin-left: 250px;
     min-width: 100px;
+    margin-bottom: auto;
     
 }
 

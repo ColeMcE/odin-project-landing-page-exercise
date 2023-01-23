@@ -1,5 +1,6 @@
 .header {
     display:flex;
+    flex: initial;
     align-items: center;
     background-color: skyblue;
     padding: 12px;
@@ -28,6 +29,7 @@
 
 .intro {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 75px;
     align-items: center;
@@ -85,14 +87,15 @@
 
 .info-blocks {
     display: flex;
-    justify-content: space-evenly;
-    flex: 1;
+    justify-content: space-around;
+    flex: initial;
     padding: 16px;
     
 }
 
 .blocks {
     display: flex;
+    flex-wrap: wrap;
     gap: 96px;
  
 }
@@ -106,6 +109,7 @@
 .quote {
     display: flex;
     flex-direction: column;
+    flex: initial;
     justify-content: center;
     align-items: center;
     height: 400px;
@@ -117,6 +121,7 @@
 
 .quote-author {
     margin-left: 250px;
+    min-width: 100px;
     
 }
 

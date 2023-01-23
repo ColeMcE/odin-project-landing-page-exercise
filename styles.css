@@ -103,6 +103,23 @@
 
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 100px;
+    font-size: 20pt;
+    font-weight: bold;
+    
+}
+
+.quote-author {
+    margin-left: 250px;
+    
+}
+
 ul {
     list-style-type: none;
 }
@@ -110,3 +127,4 @@ ul {
 body {
     margin: 0;
 }
+

@@ -183,6 +183,16 @@
     color: black;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: skyblue;
+    font-family: MedievalSharp;
+
+}
+
 ul {
     list-style-type: none;
 }
